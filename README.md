@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full-stack chat application using React on the front end and Firebase for the backend technology. This app incorporates OAuth with Google authentication through Firebase.  This is an updated version using Firebase web version 9 with modular imports.
 
-## Available Scripts
+## Prerequisites
+A google account to log into the chat.
+https://support.google.com/accounts/answer/27441?hl=en
 
-In the project directory, you can run:
+<img width="500" alt="Screen Shot 2022-09-07 at 4 42 54 PM" src="https://user-images.githubusercontent.com/68308236/188975085-be075f4d-ea2a-4667-bf73-cb875fa87a76.png">
 
-### `npm start`
+## About this Project:
+Once logged in, you can utilize the send button to send messages to another user who is also logged into the chat app. Your messages will appear on the right and the other user's messages will appear on the left, similar to any other messaging platform. You can also logged out once logged in. The log out screen will only display for a signed in user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="500" alt="Screen Shot 2022-09-07 at 4 42 48 PM" src="https://user-images.githubusercontent.com/68308236/188976220-20530ff5-2c75-408f-b51a-e5a3d5855ebb.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies used for Chat App:
+1. JavaScript
+2. React, bootstrapped through Create React App
+3. Node
+4. Firebase
+5. OAuth
+6. Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup:
+To run this App locally:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Git clone this repo.
+- Open up the app
+- `npm start` to run the app in development mode
+- open [http://localhost:3000](http://localhost:3000) to view it in your browser.
