@@ -1,6 +1,6 @@
 # Chat Application
 
-Full-stack chat application using React on the front end and Firebase for the backend technology. This app incorporates OAuth with Google authentication through Firebase.  This is an updated version using Firebase web version 9 with modular imports.
+Full-stack chat application using React on the front end and Firebase for the backend technology. This app incorporates OAuth with Google authentication through Firebase. 
 
 ## Prerequisites
 A google account to log into the chat.
